@@ -1,0 +1,10 @@
+15:55:23 **** Incremental Build of configuration Debug for project 01_blinky_rcc_systick ****
+make -j8 all 
+arm-none-eabi-size   01_blinky_rcc_systick.elf 
+   text	   data	    bss	    dec	    hex	filename
+    860	      8	   1568	   2436	    984	01_blinky_rcc_systick.elf
+Finished building: default.size.stdout
+ 
+
+15:55:23 Build Finished. 0 errors, 0 warnings. (took 329ms)
+

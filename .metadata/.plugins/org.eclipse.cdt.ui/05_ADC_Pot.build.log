@@ -1,0 +1,10 @@
+13:56:56 **** Incremental Build of configuration Debug for project 05_ADC_Pot ****
+make -j8 all 
+arm-none-eabi-size   05_ADC_Pot.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5504	    100	   1908	   7512	   1d58	05_ADC_Pot.elf
+Finished building: default.size.stdout
+ 
+
+13:56:56 Build Finished. 0 errors, 0 warnings. (took 368ms)
+

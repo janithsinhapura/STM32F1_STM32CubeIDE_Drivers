@@ -1,0 +1,2 @@
+../Src/rcc.c:4:6:HSE_8MHZ	4	static
+../Src/rcc.c:17:6:HSE_PLL_SYS_CLK_MAX	4	static

@@ -1,0 +1,6 @@
+1698682739460	Rename resource '02_timer_counter'
+1698682780727	Rename resource '02_UART_TX_RX'
+1698684910263	Delete resource '02_UART_tx_rx/Inc/uart'
+1698685050002	Delete resource '02_UART_tx_rx/Src/uart.c'
+1698744407093	Rename resource '02_UART_tx_rx'
+1698745364510	Rename resource '02_UART_TX_Printf'

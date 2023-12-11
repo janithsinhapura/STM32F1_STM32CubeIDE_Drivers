@@ -1,0 +1,17 @@
+16:19:11 **** Incremental Build of configuration Debug for project 02_timer_counter ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F1 -DSTM32F103C8Tx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/rcc.d" -MT"Src/rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/rcc.o"
+arm-none-eabi-gcc -o "02_timer_counter.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\JMS\Desktop\STM32F103C8\02_timer_counter\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="02_timer_counter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 02_timer_counter.elf
+ 
+arm-none-eabi-size   02_timer_counter.elf 
+arm-none-eabi-objdump -h -S  02_timer_counter.elf  > "02_timer_counter.list"
+   text	   data	    bss	    dec	    hex	filename
+    708	      8	   1568	   2284	    8ec	02_timer_counter.elf
+Finished building: default.size.stdout
+ 
+Finished building: 02_timer_counter.list
+ 
+
+16:19:12 Build Finished. 0 errors, 0 warnings. (took 1s.77ms)
+

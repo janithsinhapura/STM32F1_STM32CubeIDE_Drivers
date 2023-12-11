@@ -1,0 +1,4 @@
+../Src/adc.c:10:6:ADC1_Single_Conv_Init	4	static
+../Src/adc.c:32:10:ADC1_Single_Conv_Init_Read	4	static
+../Src/adc.c:43:6:ADC1_Continous_Conv_Init	4	static
+../Src/adc.c:67:10:ADC1_Continous_Conv_Init_Read	4	static
